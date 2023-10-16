@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 export const UserContext = createContext();
 
 // eslint-disable-next-line react/prop-types
-export function UserStorage({ children }) {
+export function UserStorage({children}) {
   const [data, setData] = useState(null);
   const [login, setLogin] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -19,8 +19,7 @@ export function UserStorage({ children }) {
     setLoading(false);
     setLogin(false);
     window.localStorage.removeItem('token');
-    navigate('/login');
-  }, [navigate])
+  }, [])
 
   async function getUser(token) {
     const { url, options } = USER_GET(token)
@@ -28,7 +27,6 @@ export function UserStorage({ children }) {
     const json = await response.json();
     setData(json);
     setLogin(true);
-    // console.log(json);
   }
 
   async function userLogin(username, password) {
@@ -66,6 +64,8 @@ export function UserStorage({ children }) {
         } finally {
           setLoading(false);
         }
+      } else {
+        setLogin(false);
       }
     }
     autoLogin();

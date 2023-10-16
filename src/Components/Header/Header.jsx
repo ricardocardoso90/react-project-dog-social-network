@@ -9,7 +9,7 @@ import { UserContext } from '../../Context/UserContext';
 
 export function Header() {
   // eslint-disable-next-line no-unused-vars
-  const { data, userLogout } = useContext(UserContext);
+  const { data } = useContext(UserContext);
 
   return (
     <header className={styles.header}>
@@ -20,14 +20,9 @@ export function Header() {
         {data ? (
           <Link className={styles.login} to="/conta">
             {data.nome}
-            <button
-              style={{ cursor: 'pointer' }}
-              onClick={userLogout}>
-              Sair
-            </button>
           </Link>
         ) :
-          <Link className={styles.login} to="/Login">
+          <Link className={styles.login} to="/login">
             Login / Criar
           </Link>
         }

@@ -10,13 +10,17 @@ import { UserStorage } from './Context/UserContext';
 
 function App() {
   return (
-    <BrowserRouter>
-      <UserStorage>
-        <Header />
-        <MainRoutes />
-        <Footer />
-      </UserStorage>
-    </BrowserRouter>
+    <div className='app'>
+      <BrowserRouter>
+        <UserStorage>
+          <Header />
+          <main className='app-body'>
+            <MainRoutes />
+          </main>
+          <Footer />
+        </UserStorage>
+      </BrowserRouter>
+    </div>
   )
 }
 

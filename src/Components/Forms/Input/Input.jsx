@@ -10,9 +10,9 @@ export function Input({ label, type, name, value, onChange, error, onBlur }) {
         {label}
       </label>
       <input
+        className={styles.input}
         id={name}
         name={name}
-        className={styles.input}
         type={type}
         value={value}
         onChange={onChange}
