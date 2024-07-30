@@ -3,8 +3,11 @@
 **Tecnologias utilizadas:**
 
 - [Typescript]()
+- [Sass]()
+- [Victory]()
 - [React Navigation]()
 - [Styled Components]()
+- [React Router Dom]()
 
 ## Instalação:
 
