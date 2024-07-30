@@ -3,12 +3,8 @@
 **Tecnologias utilizadas:**
 
 - [Typescript]()
-- [Axios]()
-- [Zod]()
-- [Phosphor React]()
 - [React Navigation]()
 - [Styled Components]()
-- [React Hook Form]()
 
 ## Instalação:
 
