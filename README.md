@@ -1,14 +1,19 @@
-# Projeto Rede Social de Dogs.
+## Projeto: Rede Social de Dogs
 
-Projeto desenvolvido durante o curso de React da Origamid.
+**Tecnologias utilizadas:**
 
-Tecnologias utilizadas: React + JavaScript.
+- [Typescript]()
+- [Sass]()
+- [Victory]()
+- [React Navigation]()
+- [Styled Components]()
+- [React Router Dom]()
 
-# Instalação:
+## Instalação:
 
 - `npm create vite@latest`
 - `npm i ou npm install`
 
-### Para rodar:
+## Para rodar:
 
 - `npm run dev`
