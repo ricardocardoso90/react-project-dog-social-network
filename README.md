@@ -1,20 +1,28 @@
-# Dog Social Network 🐶
+# Dog Social Network
 
 Projeto desenvolvido com base nas aulas do curso da **Origamid**.
 
 O **Dog Social Network** é uma aplicação web que funciona como uma rede social para cães, onde os usuários podem criar uma conta, postar fotos de seus pets, curtir e comentar nas publicações de outros usuários.
 
-## Tecnologias utilizadas
+## Tecnologias Utilizadas
 
-- **React 18** — Biblioteca para construção da interface do usuário
-- **TypeScript** — Tipagem estática para maior robustez e segurança no código
-- **React Router DOM** — Gerenciamento de rotas e navegação SPA
-- **Vite** — Ferramenta de build rápida e moderna
-- **SASS** — Pré-processador CSS para uma estilização mais flexível
-- **Victory** — Criação de gráficos e visualizações de dados
-- **SVGR** — Importação de arquivos SVG como componentes React
-- **PropTypes** — Validação de propriedades dos componentes
-- **ESLint + plugins (React, React Hooks, React Refresh)** — Garantia de qualidade e padronização do código
+- [React 18](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Router DOM](https://reactrouter.com/en/main)
+- [Vite](https://vitejs.dev/)
+- [SASS](https://sass-lang.com/)
+- [Victory](https://formidable.com/open-source/victory/)
+- [SVGR](https://react-svgr.com/)
+- [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+
+
+## Funcionalidades
+
+- Criação de conta e autenticação de usuário
+- Postagem de fotos dos pets
+- Curtidas e comentários em publicações
+- Visualização de estatísticas (ex: acessos das fotos)
+
 
 ## Instalação
 
@@ -32,3 +40,7 @@ O **Dog Social Network** é uma aplicação web que funciona como uma rede socia
    ```bash
    npm run dev
    ```
+
+## Para rodar:
+
+- `npm run dev`
