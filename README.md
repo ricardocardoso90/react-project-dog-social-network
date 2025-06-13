@@ -40,7 +40,3 @@ O **Dog Social Network** é uma aplicação web que funciona como uma rede socia
    ```bash
    npm run dev
    ```
-
-## Para rodar:
-
-- `npm run dev`
