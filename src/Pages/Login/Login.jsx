@@ -1,19 +1,18 @@
 import styles from './Login.module.scss'
+
+import { useContext } from 'react'
+import { UserContext } from '../../Context/UserContext'
 import { Navigate, Route, Routes } from 'react-router-dom'
 
 import { LoginForm } from '../LoginForm/LoginForm'
 import { LoginCreate } from '../LoginCreate/LoginCreate'
 import { LoginPasswordLost } from '../LoginPasswordLost/LoginPasswordLost'
 import { LoginPasswordReset } from '../LoginPasswordReset/LoginPasswordReset'
-import { useContext } from 'react'
-import { UserContext } from '../../Context/UserContext'
 import { NotFound } from '../../Components/NotFound/NotFound'
 
 export function Login() {
   const { login } = useContext(UserContext);
-  if (login === true) {
-    return <Navigate to='/conta' />
-  }
+  if (login === true) return <Navigate to='/conta' />
 
   return (
     <section className={styles.login}>
